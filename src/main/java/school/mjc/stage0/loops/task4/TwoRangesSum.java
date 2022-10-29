@@ -12,7 +12,6 @@ public class TwoRangesSum {
             for (int i = 1; i <= lastInRow; i++) {
                 if (i <= numberToSkip) {
                     sumSkip += i;
-                    continue;
                 } else {
                     sumRow += i;
                 }
